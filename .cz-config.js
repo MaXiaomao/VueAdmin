@@ -7,15 +7,15 @@ module.exports = {
 		{value: "refactor", name: "重构: 代码重构"},
 		{value: "perf", name: "性能: 优化性能"},
 		{value: "build", name: "构建: 构建流程、外部依赖的更改"},
-		{ value: "chore", name: "配置: 配置文件、辅助工具的更改" },
+		{value: "chore", name: "配置: 配置文件、辅助工具的更改"},
 	],
 	messages: {
 		type: "选择一种你的提交类型:",
 		subject: "简单描述:",
-		confirmCommit: "确定提交?"
+		confirmCommit: "确定提交?",
 	},
 	allowCustomScopes: true,
 	allowBreakingChanges: ["feat", "fix"],
 	skipQuestions: ["scope", "body", "footer"],
-	subjectLimit: 100
+	subjectLimit: 100,
 }
